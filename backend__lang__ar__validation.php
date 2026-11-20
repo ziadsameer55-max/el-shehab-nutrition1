@@ -1,0 +1,51 @@
+<?php
+
+// Arabic validation messages. Extend this file as later phases add new rules.
+return [
+    'accepted' => 'يجب الموافقة على :attribute.',
+    'array' => 'يجب أن يكون :attribute قائمة.',
+    'boolean' => 'قيمة :attribute غير صالحة.',
+    'confirmed' => 'تأكيد :attribute غير مطابق.',
+    'date' => ':attribute ليس تاريخًا صالحًا.',
+    'email' => 'يجب أن يكون :attribute بريدًا إلكترونيًا صالحًا.',
+    'file' => 'يجب أن يكون :attribute ملفًا.',
+    'in' => 'القيمة المحددة في :attribute غير صالحة.',
+    'integer' => 'يجب أن يكون :attribute عددًا صحيحًا.',
+    'max' => [
+        'array' => 'يجب ألا يزيد عدد عناصر :attribute عن :max.',
+        'file' => 'يجب ألا يتجاوز حجم :attribute :max كيلوبايت.',
+        'numeric' => 'يجب ألا يزيد :attribute عن :max.',
+        'string' => 'يجب ألا يزيد طول :attribute عن :max حرفًا.',
+    ],
+    'mimes' => 'يجب أن يكون :attribute ملفًا من النوع: :values.',
+    'min' => [
+        'array' => 'يجب أن يحتوي :attribute على :min عناصر على الأقل.',
+        'file' => 'يجب ألا يقل حجم :attribute عن :min كيلوبايت.',
+        'numeric' => 'يجب ألا يقل :attribute عن :min.',
+        'string' => 'يجب ألا يقل طول :attribute عن :min أحرف.',
+    ],
+    'numeric' => 'يجب أن يكون :attribute رقمًا.',
+    'regex' => 'صيغة :attribute غير صحيحة.',
+    'required' => 'حقل :attribute مطلوب.',
+    'string' => 'يجب أن يكون :attribute نصًا.',
+    'unique' => ':attribute مستخدم بالفعل.',
+    'uploaded' => 'تعذر رفع :attribute.',
+    'password' => [
+        'letters' => 'يجب أن تحتوي :attribute على حرف واحد على الأقل.',
+        'mixed' => 'يجب أن تحتوي :attribute على حرف كبير وحرف صغير على الأقل.',
+        'numbers' => 'يجب أن تحتوي :attribute على رقم واحد على الأقل.',
+        'symbols' => 'يجب أن تحتوي :attribute على رمز واحد على الأقل.',
+        'uncompromised' => ':attribute ظهرت في تسريب بيانات. اختر كلمة مرور مختلفة.',
+    ],
+    'custom' => [],
+    'attributes' => [
+        'name' => 'الاسم',
+        'email' => 'البريد الإلكتروني',
+        'phone' => 'رقم الهاتف',
+        'password' => 'كلمة المرور',
+        'password_confirmation' => 'تأكيد كلمة المرور',
+        'locale' => 'اللغة',
+        'accepted_privacy' => 'سياسة الخصوصية',
+        'token' => 'رمز إعادة التعيين',
+    ],
+];

@@ -1,0 +1,100 @@
+{
+  "brand": {
+    "name": "EL SHEHAB NUTRITION",
+    "tagline": "Online nutrition and health follow-up platform"
+  },
+  "credit": {
+    "developedBy": "Developed & Powered by",
+    "company": "CODING Systems",
+    "slogan": "We Build What You Need."
+  },
+  "nav": {
+    "home": "Home",
+    "login": "Patient login",
+    "register": "Create account",
+    "logout": "Sign out",
+    "language": "العربية",
+    "dashboard": "Dashboard",
+    "menu": "Menu"
+  },
+  "common": {
+    "loading": "Loading...",
+    "submit": "Submit",
+    "back": "Back",
+    "required": "Required",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "genericError": "Something went wrong. Please try again.",
+    "networkError": "Could not reach the server. Check your connection and try again.",
+    "tooManyRequests": "Too many attempts. Please wait a moment and try again.",
+    "sessionExpired": "Your session has expired. Please sign in again."
+  },
+  "home": {
+    "welcome": "Welcome",
+    "intro": "Create your account, complete your health profile, and book your consultation with the doctor."
+  },
+  "auth": {
+    "loginTitle": "Patient login",
+    "loginSubtitle": "Sign in to follow your appointments and diet plan.",
+    "loginButton": "Sign in",
+    "loggingIn": "Signing in...",
+    "registerTitle": "Create a new account",
+    "registerSubtitle": "Your data is protected and used only for your health follow-up.",
+    "registerButton": "Create account",
+    "registering": "Creating account...",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "forgotLink": "Forgot your password?",
+    "forgotTitle": "Reset your password",
+    "forgotSubtitle": "Enter your email and we will send you a reset link.",
+    "forgotButton": "Send link",
+    "sending": "Sending...",
+    "backToLogin": "Back to sign in",
+    "resetTitle": "Set a new password",
+    "resetSubtitle": "Choose a strong password for your account.",
+    "resetButton": "Save password",
+    "saving": "Saving...",
+    "resetMissing": "The reset link is incomplete. Please request a new one.",
+    "requestNewLink": "Request a new link",
+    "resetDone": "Your password has been changed. You can now sign in.",
+    "passwordHint": "At least 10 characters, with letters and numbers.",
+    "privacyPrefix": "I agree to the",
+    "privacyLink": "privacy policy",
+    "privacyUnavailable": "(final text pending client approval)",
+    "healthConsentNote": "Your explicit consent to process health data will be requested when you complete your health profile."
+  },
+  "fields": {
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone number",
+    "phoneHint": "Example: 01001234567 or +201001234567",
+    "password": "Password",
+    "passwordConfirmation": "Confirm password"
+  },
+  "errors": {
+    "nameRequired": "Name is required (at least 2 characters).",
+    "emailInvalid": "Enter a valid email address.",
+    "phoneInvalid": "Enter a valid phone number (7 to 15 digits).",
+    "passwordShort": "Password must be at least 10 characters.",
+    "passwordWeak": "Password must contain letters and numbers.",
+    "passwordMismatch": "Password confirmation does not match.",
+    "passwordRequired": "Password is required.",
+    "privacyRequired": "You must accept the privacy policy to continue."
+  },
+  "patient": {
+    "dashboardTitle": "Patient dashboard",
+    "greeting": "Welcome, {name}",
+    "healthPrompt": "Your health profile is not complete. Completing it will be available in the next development phase.",
+    "areaNote": "This is a foundation dashboard. Appointments, payments, diet plans and measurements are added in the next phases."
+  },
+  "doctor": {
+    "dashboardTitle": "Doctor dashboard",
+    "greeting": "Welcome, {name}",
+    "areaNote": "This is a foundation dashboard. Patient, appointment, payment and plan management are added in the next phases."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The link you opened is incorrect or no longer available.",
+    "home": "Back to home"
+  }
+}

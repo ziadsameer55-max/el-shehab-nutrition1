@@ -1,0 +1,51 @@
+<?php
+
+// English validation messages. Extend this file as later phases add new rules.
+return [
+    'accepted' => 'You must accept the :attribute.',
+    'array' => 'The :attribute must be a list.',
+    'boolean' => 'The :attribute value is invalid.',
+    'confirmed' => 'The :attribute confirmation does not match.',
+    'date' => 'The :attribute is not a valid date.',
+    'email' => 'The :attribute must be a valid email address.',
+    'file' => 'The :attribute must be a file.',
+    'in' => 'The selected :attribute is invalid.',
+    'integer' => 'The :attribute must be a whole number.',
+    'max' => [
+        'array' => 'The :attribute may not have more than :max items.',
+        'file' => 'The :attribute may not be larger than :max kilobytes.',
+        'numeric' => 'The :attribute may not be greater than :max.',
+        'string' => 'The :attribute may not be longer than :max characters.',
+    ],
+    'mimes' => 'The :attribute must be a file of type: :values.',
+    'min' => [
+        'array' => 'The :attribute must have at least :min items.',
+        'file' => 'The :attribute must be at least :min kilobytes.',
+        'numeric' => 'The :attribute must be at least :min.',
+        'string' => 'The :attribute must be at least :min characters.',
+    ],
+    'numeric' => 'The :attribute must be a number.',
+    'regex' => 'The :attribute format is invalid.',
+    'required' => 'The :attribute field is required.',
+    'string' => 'The :attribute must be text.',
+    'unique' => 'The :attribute is already in use.',
+    'uploaded' => 'The :attribute failed to upload.',
+    'password' => [
+        'letters' => 'The :attribute must contain at least one letter.',
+        'mixed' => 'The :attribute must contain at least one uppercase and one lowercase letter.',
+        'numbers' => 'The :attribute must contain at least one number.',
+        'symbols' => 'The :attribute must contain at least one symbol.',
+        'uncompromised' => 'The :attribute has appeared in a data leak. Please choose a different one.',
+    ],
+    'custom' => [],
+    'attributes' => [
+        'name' => 'name',
+        'email' => 'email',
+        'phone' => 'phone number',
+        'password' => 'password',
+        'password_confirmation' => 'password confirmation',
+        'locale' => 'language',
+        'accepted_privacy' => 'privacy policy',
+        'token' => 'reset token',
+    ],
+];
